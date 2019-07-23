@@ -26,7 +26,7 @@ namespace MyBlog {
                 articleInfo = ArticleManager.GetLatestArticle();
             } else {
                 if (int.TryParse(articleIdStr, out int articleId)) {
-                    articleInfo = ArticleManager.GetArticleById(articleId, true);
+                    articleInfo = ArticleManager.GetArticleById(articleId);
                 } else {
                     throw new Exception("Unable to parse article id.");
                 }

@@ -16,7 +16,7 @@ namespace MyBlog.src {
 
             // NOTE: In a DB, we would want to check for 
             // the highest article id *under* this id.
-            actualId = (id - 1) % _articles.Count();
+            int actualId = (id - 1) % _articles.Count();
             return _articles[actualId];
         }
 
