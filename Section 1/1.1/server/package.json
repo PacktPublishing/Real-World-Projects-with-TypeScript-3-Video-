@@ -1,0 +1,21 @@
+{
+  "name": "sample-server",
+  "version": "1.0.0",
+  "description": "A sample server.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "local": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Vroman",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^8.0.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/websocket": "0.0.40",
+    "websocket": "^1.0.28"
+  }
+}

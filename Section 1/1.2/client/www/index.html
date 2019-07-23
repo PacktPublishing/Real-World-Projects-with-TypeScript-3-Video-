@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WebSockets Chat</title>
+    <script src="index.js"></script>
+    <link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div id="chatlog"></div>
+    <div id="userList"></div>
+    <div id="inputWrapper" style="display:none">
+        <input type="text" id="entry" value="" placeholder="Enter text to send chat" />&nbsp;
+        <input type="button" id="sendbutton" value="Send" onclick="Chat.App.sendChat();" disabled="disabled" />
+    </div>
+    <div id="joinDiv">
+        <input type="text" id="username" value="" placeholder="Username" />&nbsp;
+        <input type="button" id="loginbutton" value="Login" onclick="Chat.App.connect();" disabled="disabled" />
+    </div>
+</body>
+
+</html>

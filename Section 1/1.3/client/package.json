@@ -1,0 +1,17 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "A sample game.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Vroman",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {}
+}
