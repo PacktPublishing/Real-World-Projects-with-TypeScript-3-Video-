@@ -83,3 +83,8 @@ namespace Chat {
         }
     }
 }
+
+// Application entry point.
+window.onload = () => {
+    Chat.App.start();
+}
