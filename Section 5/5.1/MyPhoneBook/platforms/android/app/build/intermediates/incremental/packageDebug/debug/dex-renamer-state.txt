@@ -1,0 +1,4 @@
+#Wed May 15 20:39:03 EDT 2019
+base.0=G\:\\packt\\code\\section5\\MyPhoneBook\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
