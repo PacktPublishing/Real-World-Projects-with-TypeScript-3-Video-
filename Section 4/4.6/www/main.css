@@ -1,0 +1,33 @@
+html, body {
+    background: #999;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    text-align: left;
+}
+.legend-element {
+    margin:2px;
+}
+.legend-block {
+    display:inline-block;
+    width:20px;
+    margin:2px;
+}
+
+.chart-wrapper {
+    height:200px; 
+    width:100%;
+}
+
+#chartCanvas {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+#chartLegend {
+    min-width:200px; 
+    float:left;
+}

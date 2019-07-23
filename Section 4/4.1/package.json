@@ -1,0 +1,19 @@
+{
+  "name": "billpay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "./node_modules/.bin/electron ./dist/program.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Vroman",
+  "license": "ISC",
+  "devDependencies": {
+    "child-process": "^1.0.2",
+    "electron": "^5.0.1",
+    "fs-extra": "^7.0.1",
+    "typescript": "^3.4.5"
+  }
+}
