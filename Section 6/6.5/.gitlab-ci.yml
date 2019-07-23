@@ -1,0 +1,38 @@
+image: node:latest
+
+stages:
+  - dependencies
+  - lint
+  - build
+  - testWithCoverage
+
+dependencies:
+  stage: dependencies
+  script:
+   - npm install
+  artifacts:
+    paths:
+      - node_modules/
+  tags:
+    - docker
+
+lint:
+  stage: lint
+  script:
+   - npm run lint
+  tags:
+    - docker
+
+build:
+  stage: build
+  script:
+   - npm run build
+  tags:
+    - docker
+
+testWithCoverage:
+  stage: testWithCoverage
+  script:
+   - npm run testWithCoverage
+  tags:
+    - docker

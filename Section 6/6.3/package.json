@@ -1,0 +1,23 @@
+{
+  "name": "tv_packt_section6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json -c tslint.json src/**/*.ts",
+    "build": "node ./node_modules/typescript/bin/tsc",
+    "test": "mocha -r ts-node/register tests/**/*.tests.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "tslint-consistent-codestyle": "^1.15.1",
+    "typescript": "^3.3.3"
+  }
+}

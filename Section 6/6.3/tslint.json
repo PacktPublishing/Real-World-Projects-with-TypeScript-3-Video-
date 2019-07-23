@@ -1,0 +1,58 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-consistent-codestyle"
+    ],
+    "jsRules": {},
+    "rulesDirectory": [
+        "tslint-consistent-codestyle"
+    ],
+    "rules": {
+        "eofline": false,
+        "no-reference": false,
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "space-within-parens": [
+            true,
+            1
+        ],
+        "prefer-const": false,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "private-static-field",
+                    "private-instance-field",
+                    "public-static-field",
+                    "public-instance-field",
+                    "public-constructor",
+                    "private-constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "no-bitwise": false,
+        "max-classes-per-file": [true, 1, "exclude-class-expressions"],
+        "max-line-length": [
+            true,
+            160
+        ],
+        "forin": false,
+        "prefer-for-of": false,
+        "no-namespace": false,
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "no-empty": false,
+        "trailing-comma": false
+    }
+}
