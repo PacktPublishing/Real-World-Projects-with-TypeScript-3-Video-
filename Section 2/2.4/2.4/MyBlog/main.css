@@ -1,0 +1,38 @@
+﻿html, body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #444;
+    font-size: 14pt;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+.banner {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #888;
+}
+
+.article {
+    border-bottom: 1px solid #888;
+    margin: 20px auto;
+    min-width: 400px;
+    clear: both;
+}
+
+.article-title {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.article-content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
