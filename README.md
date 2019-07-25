@@ -1,4 +1,4 @@
-# Deep Learning with Java [Video]
+# Real-World Projects with TypeScript 3 [Video]
 This is the code repository for [Real-World Projects with TypeScript 3 [Video]](https://www.packtpub.com/application-development/dreal-world-projects-with-typescript-3-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
 When it comes to writing clean, object-oriented code in JavaScript, its complexity grows with the size of the project. Typescript helps alleviate this by allowing you to write clean, typed, object-oriented code in order to keep your projects neat, organized, and easy to understand and maintain.
